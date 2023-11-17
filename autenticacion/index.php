@@ -11,8 +11,8 @@ if (isset($_POST['nnombre']) && isset($_POST['npassword'])) {
     }
 
     $server = "localhost";
-    $user = "root";
-    $passw = "";
+    $user = "consulta";
+    $passw = "12345";
     $bd = "manejocb";
 
     $conexion = mysqli_connect($server, $user, $passw, $bd) or die("Ha sucedido un error inexperado en la conexión de la base de datos");
