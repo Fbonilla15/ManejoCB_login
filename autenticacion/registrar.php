@@ -10,8 +10,8 @@ if (empty($nuevo_usuario) || empty($nuevo_password)) {
 }
 
 $server = "localhost";
-$user = "root";
-$passw = "";
+$user = "consulta";
+$passw = "12345";
 $bd = "manejocb";
 
 $conexion = new mysqli($server, $user, $passw, $bd);
